@@ -4,10 +4,11 @@ import React, { useState } from 'react';
 
 export default function Header() {
     // state for what the current page is and page is changed
-    const [currentPage, pageChange] = useState('Home');
+    const [currentPage, handlePageChange] = useState('Home');
 
     // what page will render based on what is clicked
     const renderPage = () => {
+        // can choose to use if statement if this doesn't work
         // switch case statment for all pages - make sure case name is exactly the same as the tabs later in Nav.js
         switch(currentPage) {
             case "Home":
@@ -25,5 +26,18 @@ export default function Header() {
         }
     };
 
-    // return to renderPage
+    // return to renderPage and handlePageChange
+    return (
+        <div>
+            <div> 
+                JT
+            </div>
+            <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
+            <div>
+                {
+                    renderPage()
+                }
+            </div>
+        </div>
+    )
 }
