@@ -1,7 +1,7 @@
 // Navigation bar and working links
 import React from 'react';
 
-export default function Nav() {
+export default function Nav(props) {
     const tabs = ['Home', 'About', 'Work', 'Contact', 'Resume'];
 
     return (
