@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Crypto Cards",
+        "description": "Did you ever collect pokemon cards growing up or are you collecting them now? Have you ever thought about how much crypto you can get for all those Pokemon cards sitting on your shelf? You can get the most current crypto prices for your Pokemon cards on Crypto Cards! We offer prices in USD, Bitcon, Etherum, and Tether and as time passes, we would love to offer prices in other varying cryptocurrencies.",
+        "techs": "HTML, CSS, jQuery, BootStrap, API",
+        "live": "https://jentruong09.github.io/crypto-cards/set-results.html",
+        "github": "https://github.com/jentruong09/crypto-cards",
+        "image": "https://i.imgur.com/yKB3d4X.png"
+    },
+    {
+        "id": 2,
+        "name": "code.quiz challenge",
+        "description": "Test your knowledge on coding with this quiz challenge! Visit the scoreboard page to your scores!",
+        "techs": "HTML, CSS, JavaScript",
+        "live": "https://jentruong09.github.io/code-quiz/",
+        "github": "https://github.com/jentruong09/code-quiz",
+        "image": "https://i.imgur.com/iFGtevQ.png"
+    },
+    {
+        "id": 3,
+        "name": "QUACK",
+        "description": "QUACK is an application that allows users to interact with one another. Simply create a login for yourself and you can post, comment, and like/dislike posts!",
+        "techs": "Express, MySQL, Handlebars, node.js, Bootstrap, Sequelize, Bcrypt",
+        "live": "https://quack-project.herokuapp.com",
+        "github": "https://github.com/jentruong09/quack",
+        "image": "https://i.imgur.com/aTjZrci.png"
+    },
+    {
+        "id": 4,
+        "name": "Weather or Not, We are here for you!",
+        "description": "With this weather application, you can find the weather of over 200,000 cities! Simply search up any city and find the weather forecast of up to 5 days.",
+        "techs": "HTML, CSS, jQuery, Bootstrap, API, Moment",
+        "live": "https://jentruong09.github.io/weather-dashboard/",
+        "github": "https://github.com/jentruong09/weather-dashboard",
+        "image": "https://i.imgur.com/fPKxo1Y.jpg"
+    }
+]
