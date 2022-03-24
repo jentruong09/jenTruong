@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+
+.notCard {
+    max-width: 150px;
+    max-height: auto;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom:25px;
+    align-items: center;
+    border-radius: 0px;
+}

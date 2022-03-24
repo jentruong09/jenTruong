@@ -5,8 +5,8 @@ import Nav from './Nav'
 import Home from './Home'
 import About from './About'
 import Work from './Work'
-//import Contact from './Contact'
-//import Resume from './Resume'
+import Contact from './Contact'
+import Resume from './Resume'
 
 
 export default function Header() {
@@ -24,10 +24,10 @@ export default function Header() {
                 return <About></About>
             case "Work":
                 return <Work></Work>
-            // case "Contact":
-            //     return <Contact></Contact>
-            // case "Resume":
-            //     return <Resume></Resume>
+            case "Contact":
+                return <Contact></Contact>
+            case "Resume":
+                return <Resume></Resume>
             default:
                 return <Home></Home>
         }

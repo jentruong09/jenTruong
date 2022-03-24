@@ -9,7 +9,7 @@ export default function Nav(props) {
             {tabs.map(tab => (
                 <li className='navItem' key={tab}>
                     {/* // ternary operator for link to page depending on which page user is on -- fix later if issues? */}
-                    <a href={'#' + tab} onClick={() => props.handlePageChange(tab)} className={props.currentPage === tab ? 'nav-link active' : 'nav-link'}>
+                    <a onClick={() => props.handlePageChange(tab)} className={props.currentPage === tab ? 'nav-link active' : 'nav-link'}>
                         {tab}
                     </a>
                 </li>
@@ -17,3 +17,5 @@ export default function Nav(props) {
         </ul>
     )
 }
+
+// href={'#' + tab}
