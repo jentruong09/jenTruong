@@ -1,0 +1,22 @@
+.navBar {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+
+.navItem {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: #e9eee8;
+    /* flex-wrap: wrap;
+    align-items: flex-start; */
+    margin-right: 15px;
+    margin-left: 15px;
+    transition: color 1s;
+}
+
+.navItem:hover {
+    cursor: pointer;
+    color: #557e7a;
+}

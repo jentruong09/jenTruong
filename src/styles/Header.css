@@ -1,0 +1,12 @@
+.allHeader {
+    display: flex;
+    margin: 25px 25px 25px 25px;
+    width: 100%;
+    align-items: center;
+}
+
+.headerlogo {
+    max-width: 100px;
+    max-height: auto;
+}
+

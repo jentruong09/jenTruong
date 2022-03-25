@@ -8,6 +8,8 @@ import Work from './Work'
 import Contact from './Contact'
 import Resume from './Resume'
 
+import '../styles/Header.css'
+
 
 export default function Header() {
     // state for what the current page is and page is changed
@@ -35,11 +37,13 @@ export default function Header() {
 
     // return to renderPage and handlePageChange
     return (
-        <div>
+        <div >
+            <div className='allHeader'>
             <div> 
-                JT
+                <img src='https://i.imgur.com/ZkPuC3v.png' className='headerlogo' alt='headerlogo'/>
             </div>
             <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
+            </div>
             <div>
                 {
                     renderPage()

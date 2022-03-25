@@ -1,8 +1,7 @@
 // Body for contact info
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { validateEmail } from '../utils/helpers';
-// add validation for emails
-
 
 export default function Contact() {
     const [formState, setFormState] = useState({ name: "", email: "", message: "" });
@@ -56,6 +55,7 @@ export default function Contact() {
                         <p className='errorMessage'>{errorMessage}</p>
                     </div>
                 )}
+                <button type='submit' className='btn btn-dark'>Submit</button>
             </form>
 
             <div className='otherContact'>
@@ -66,10 +66,10 @@ export default function Contact() {
                         <a href="mailto: jennifertruong09@gmail.com"><i class="fas fa-envelope"></i> Email</a>
                     </li> */}
                     <li>
-                        <a href="https://github.com/jentruong09"><i class="fab fa-github-square"></i> GitHub</a>
+                        <a href="https://github.com/jentruong09"><img src='https://i.imgur.com/K74n3yJ.png' alt='github'/></a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/jennifertruong09/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/jennifertruong09/"><img src='https://i.imgur.com/sq41iit.png' alt='linkedin'/></a>
                     </li>
                 </ul>
             </div>
