@@ -55,7 +55,7 @@ export default function Contact() {
                         <p className='errorMessage'>{errorMessage}</p>
                     </div>
                 )}
-                <button type='submit' className='submit btn btn-dark'>Submit</button>
+                <button type='submit' className='submit btn btn-dark' onSubmit={handleSubmit}>Submit</button>
             </form>
 
             <div className='otherContact'>
