@@ -1,0 +1,35 @@
+.contactList {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.contactImg {
+    max-width: 40px;
+    max-height: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.contactArea {
+    align-items: center;
+    margin-bottom: 100px;
+    vertical-align: middle;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+form {
+    max-width: auto;
+    align-items: center;
+}
+
+.submit {
+    margin-top: 10px;
+}
+
+.otherContact {
+    margin-top: 30px;
+    /* text-align: center;
+    vertical-align: middle; */
+}

@@ -15,8 +15,8 @@ import Footer from './components/Footer';
 function App() {
   //const location = useLocation
   return (
-    <div>
-      <div>
+    <div className='page'>
+      <div> 
         <Header></Header>
       </div>
       {/* <Switch location={location} key={location.pathname}>

@@ -5,13 +5,13 @@ import '../styles/Resume.css'
 
 export default function Resume() {
     return (
-        <div>
+        <div className='resumeSection'>
             <h5 className='resumeDownload'>
-                Download a PDF of my resume: <a href='https://drive.google.com/file/d/1HVZDekGzx4APc4imO8JMF6-DEq4I2TGH/view?usp=sharing'>Resume</a>
+                Download a PDF of my resume: <a className='resumeLink' href='https://drive.google.com/file/d/1HVZDekGzx4APc4imO8JMF6-DEq4I2TGH/view?usp=sharing'>Resume</a>
             </h5>
             <div className='technologies'>
-                <h5> Proficiencies </h5>
-                <div className='container'>
+               
+                {/* <div className='container'>
                     <div className="image" >
                         <img src="https://i.imgur.com/ZVRpS3t.png" class="notCard" alt='html'/>
                     </div>
@@ -21,8 +21,9 @@ export default function Resume() {
                     <div className="image" >
                         <img src="https://i.imgur.com/fmCTb6Q.png" class="notCard" alt='js'/>
                     </div>
-                </div>
-                {/* <ul>
+                </div> */} 
+                <h5> Proficiencies: </h5>
+                <ul className='profList'>
                     <li>
                         HTML
                     </li>
@@ -41,7 +42,25 @@ export default function Resume() {
                     <li>
                         BootStrap
                     </li>
-                </ul> */}
+                    <li>
+                        Node.js
+                    </li>
+                    <li>
+                        Express.js
+                    </li>
+                    <li>
+                        MySQL
+                    </li>
+                    <li>
+                        NoSQL - MongoDB, Mongoose
+                    </li>
+                    <li>
+                        APIs - RESTful, third-part, server-side, web
+                    </li>
+                    <li>
+                        Handlebars
+                    </li>
+                </ul>
             </div>
         </div>
     )

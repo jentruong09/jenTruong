@@ -1,7 +1,7 @@
 // Body for contact info
 import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { validateEmail } from '../utils/helpers';
+import '../styles/Contact.css'
 
 export default function Contact() {
     const [formState, setFormState] = useState({ name: "", email: "", message: "" });
@@ -40,36 +40,36 @@ export default function Contact() {
             <form onSubmit={handleSubmit}>
                 <div className='form-group'>
                     <label htmlFor='name'>Name </label>
-                    <input type='text' className="form-control" dafaultValue={name} onBlur={handleChange} name='name' />
+                    <input type='text' className="form-control" dafaultvalue={name} onBlur={handleChange} name='name' />
                 </div>
-                <div clasName="form-group">
-                    <label htmlfor="email">Email address </label>
-                    <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" dafaultValue={email} onBlur={handleChange} name='email'/>
+                <div className="form-group">
+                    <label htmlFor="email">Email address </label>
+                    <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" dafaultvalue={email} onBlur={handleChange} name='email'/>
                 </div>
                 <div className="form-group">
                     <label htmlFor="message">Message </label>
-                    <textarea className="form-control" id="exampleFormControlTextarea1" rows="6" dafaultValue={message} onBlur={handleChange} name='message'></textarea>
+                    <textarea className="form-control" id="exampleFormControlTextarea1" rows="6" dafaultvalue={message} onBlur={handleChange} name='message'></textarea>
                 </div>
                 {errorMessage && (
                     <div>
                         <p className='errorMessage'>{errorMessage}</p>
                     </div>
                 )}
-                <button type='submit' className='btn btn-dark'>Submit</button>
+                <button type='submit' className='submit btn btn-dark'>Submit</button>
             </form>
 
             <div className='otherContact'>
                 <h3> You can contact me here as well: </h3>
-                <div class="full-content" id="contact">
-                <ul>
+                <div className="full-content" id="contact">
+                <ul className='contactList'>
                     {/* <li>
-                        <a href="mailto: jennifertruong09@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+                        <a href="mailto: jennifertruong09@gmail.com"><i classNames="fas fa-envelope"></i> Email</a>
                     </li> */}
                     <li>
-                        <a href="https://github.com/jentruong09"><img src='https://i.imgur.com/K74n3yJ.png' alt='github'/></a>
+                        <a href="https://github.com/jentruong09"><img className='contactImg' src='https://i.imgur.com/K74n3yJ.png' alt='github'/></a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/jennifertruong09/"><img src='https://i.imgur.com/sq41iit.png' alt='linkedin'/></a>
+                        <a href="https://www.linkedin.com/in/jennifertruong09/"><img className='contactImg' src='https://i.imgur.com/sq41iit.png' alt='linkedin'/></a>
                     </li>
                 </ul>
             </div>

@@ -1,5 +1,6 @@
 // Landing page
 import React from "react";
+import '../styles/Home.css'
 
 export default function Home() {
     return (
@@ -9,6 +10,9 @@ export default function Home() {
                 <h3 className="name">Jennifer Truong,</h3>
                 <h3 className="title">Full-Stack Web Developer.</h3>
                 <p>I like to design and build things for the web.</p>
+            </div>
+            <div className="emoji"> 
+                <img src='https://i.imgur.com/tFjQNpc.png' className="pic" alt='pic'/>
             </div>
         </div>
     );

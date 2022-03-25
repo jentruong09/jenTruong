@@ -1,0 +1,16 @@
+.aboutArea {
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+.about {
+  align-items: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.aboutPic {
+  vertical-align: middle;
+  margin-bottom: 100px;
+}
