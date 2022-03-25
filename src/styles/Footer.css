@@ -7,3 +7,11 @@
     text-align: center;
     bottom: 0;
 }
+
+.contactList {
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+}

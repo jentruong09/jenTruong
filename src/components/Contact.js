@@ -44,7 +44,7 @@ export default function Contact() {
                 </div>
                 <div className="form-group">
                     <label htmlFor="email">Email address </label>
-                    <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" dafaultvalue={email} onBlur={handleChange} name='email'/>
+                    <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" dafaultvalue={email} onBlur={handleChange} name='email' />
                 </div>
                 <div className="form-group">
                     <label htmlFor="message">Message </label>
@@ -58,22 +58,22 @@ export default function Contact() {
                 <button type='submit' className='submit btn btn-dark' onSubmit={handleSubmit}>Submit</button>
             </form>
 
-            <div className='otherContact'>
+            {/* <div className='otherContact'>
                 <h3> You can contact me here as well: </h3>
                 <div className="full-content" id="contact">
-                <ul className='contactList'>
-                    {/* <li>
-                        <a href="mailto: jennifertruong09@gmail.com"><i classNames="fas fa-envelope"></i> Email</a>
-                    </li> */}
-                    <li>
-                        <a href="https://github.com/jentruong09"><img className='contactImg' src='https://i.imgur.com/K74n3yJ.png' alt='github'/></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/jennifertruong09/"><img className='contactImg' src='https://i.imgur.com/sq41iit.png' alt='linkedin'/></a>
-                    </li>
-                </ul>
-            </div>
-            </div>
+                    <ul className='contactList'>
+                        <li>
+                            <a href="mailto: jennifertruong09@gmail.com"><img className='contactImg' src='https://i.imgur.com/hi8b397.png' alt='email' /></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/jentruong09"><img className='contactImg' src='https://i.imgur.com/K74n3yJ.png' alt='github' /></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/jennifertruong09/"><img className='contactImg' src='https://i.imgur.com/sq41iit.png' alt='linkedin' /></a>
+                        </li>
+                    </ul>
+                </div>
+            </div> */}
         </div >
     )
 }
