@@ -20,8 +20,8 @@ export default function Header() {
         // can choose to use if statement if this doesn't work
         // switch case statment for all pages - make sure case name is exactly the same as the tabs later in Nav.js
         switch(currentPage) {
-            case "Home":
-                return <Home></Home>
+            // case "Home":
+            //     return <Home></Home>
             case "About":
                 return <About></About>
             case "Work":
@@ -30,8 +30,8 @@ export default function Header() {
                 return <Contact></Contact>
             case "Resume":
                 return <Resume></Resume>
-            default:
-                return <Home></Home>
+            // default:
+            //     return <Home></Home>
         }
     };
 
