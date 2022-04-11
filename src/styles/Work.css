@@ -49,8 +49,8 @@
 
 .work-card {
     width: 700px;
-    border: 1px solid white;
-    border-radius: 10px;
+    /* border: 1px solid white; */
+    border-radius: 7px;
     justify-content: center;
     flex-direction: column;
     margin: 0 auto; /* Added */

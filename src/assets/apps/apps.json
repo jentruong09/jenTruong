@@ -10,17 +10,17 @@
     },
     {
         "id": 2,
-        "name": "code.quiz challenge",
-        "description": "Test your knowledge on coding with this quiz challenge! Visit the scoreboard page to your scores!",
-        "techs": "HTML, CSS, JavaScript",
-        "live": "https://jentruong09.github.io/code-quiz/",
-        "github": "https://github.com/jentruong09/code-quiz",
-        "image": "https://i.imgur.com/iFGtevQ.png"
+        "name": "Honey",
+        "description": "This new dating app helps anime lovers find a connection. Anime is a popular topic of discussion, according to Google volume search, close to 100 million people watch anime. Find those that love to watch anime and want to find love on Honey!",
+        "techs": "MongoDB, React.js, node.js, socket.io, Bootstrap, Sequelize, Bcrypt, API",
+        "live": "https://honey3app.herokuapp.com/",
+        "github": "https://github.com/jentruong09/Honey",
+        "image": "https://i.imgur.com/BX4frhV.png"
     },
     {
         "id": 3,
         "name": "QUACK",
-        "description": "QUACK is an application that allows users to interact with one another. Simply create a login for yourself and you can post, comment, and like/dislike posts!",
+        "description": "QUACK is a social media application that allows users to interact with one another. Simply create a login for yourself and you can post, comment, and like/dislike posts!",
         "techs": "Express, MySQL, Handlebars, node.js, Bootstrap, Sequelize, Bcrypt",
         "live": "https://quack-project.herokuapp.com",
         "github": "https://github.com/jentruong09/quack",
@@ -28,11 +28,20 @@
     },
     {
         "id": 4,
-        "name": "Weather or Not, We are here for you!",
-        "description": "With this weather application, you can find the weather of over 200,000 cities! Simply search up any city and find the weather forecast of up to 5 days.",
-        "techs": "HTML, CSS, jQuery, Bootstrap, API, Moment",
-        "live": "https://jentruong09.github.io/weather-dashboard/",
-        "github": "https://github.com/jentruong09/weather-dashboard",
-        "image": "https://i.imgur.com/fPKxo1Y.jpg"
+        "name": "The Tech Blog",
+        "description": "A blog where anyone interested about Tech can come and share their thoughts! Simply create a login and you are able to post and comment! Keep the email and password so you can always log in!",
+        "techs": "Express, MySQL, Handlebars, node.js, Bootstrap, Sequelize, Bcrypt",
+        "live": "https://thetechbloggg.herokuapp.com",
+        "github": "https://github.com/jentruong09/theTechBlog",
+        "image": "https://i.imgur.com/zjBomv0.png"
+    },
+    {
+        "id": 5,
+        "name": "code.quiz challenge",
+        "description": "Test your knowledge on coding with this quiz challenge! Visit the scoreboard page to your scores!",
+        "techs": "HTML, CSS, JavaScript",
+        "live": "https://jentruong09.github.io/code-quiz/",
+        "github": "https://github.com/jentruong09/code-quiz",
+        "image": "https://i.imgur.com/iFGtevQ.png"
     }
 ]
