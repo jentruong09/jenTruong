@@ -6,6 +6,7 @@ const styles = {
     color: {
         color: 'white'
     }
+    
 }
 
 //props

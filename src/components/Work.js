@@ -6,19 +6,15 @@ import '../styles/Work.css'
 
 function ProjectCard(props) {
     return (
-        <div className='container col-12'>
-            <div className='row'>
-                <div className='col'>
-                    <div className='card'>
-                        <img src={props.image} className='card-img-top' alt={props.name}></img>
-                        <div className="card-body">
-                            <h5 className="card-title">{props.name}</h5>
-                            <p className="card-text">{props.description}</p>
-                            <p className="card-techs">{props.techs}</p>
-                            <a href={props.github} className="github btn btn-dark">GitHub</a>
-                            <a href={props.live} className="app btn btn-dark">App</a>
-                        </div>
-                    </div>
+        <div className='work-container'>
+            <div className='work-card'>
+                <img src={props.image} className='card-img-top' alt={props.name}></img>
+                <div className="card-body">
+                    <h5 className="card-title">{props.name}</h5>
+                    <p className="card-text">{props.description}</p>
+                    <p className="card-techs">{props.techs}</p>
+                    <a href={props.github} className="github btn btn-dark">GitHub</a>
+                    <a href={props.live} className="app btn btn-dark">App</a>
                 </div>
             </div>
         </div>

@@ -41,3 +41,43 @@
     cursor: pointer;
     color: #557e7a;
 }
+
+.work-container {
+    display: flex;
+    
+}
+
+.work-card {
+    width: 700px;
+    border: 1px solid white;
+    border-radius: 10px;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 50px;
+}    
+
+.card-img-top {
+    margin-top: 30px;
+    width: 650px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card-body {
+    margin-bottom: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+@media screen and (max-width: 745px) {
+    .work-card {
+        width: 450px;
+    }
+
+    .card-img-top {
+        width: 400px;
+    }
+}
