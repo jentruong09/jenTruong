@@ -3,41 +3,42 @@ import React, { useState } from 'react';
 import { validateEmail } from '../utils/helpers';
 import '../styles/Contact.css'
 
+
 export default function Contact() {
-    const [formState, setFormState] = useState({ name: "", email: "", message: "" });
+    // const [formState, setFormState] = useState({ name: "", email: "", message: "" });
 
-    const { name, email, message } = formState;
-    const [errorMessage, setErrorMessage] = useState("")
+    // const { name, email, message } = formState;
+    // const [errorMessage, setErrorMessage] = useState("")
 
-    function handleChange(el) {
-        if (el.target.name === 'email') {
-            const validEmail = validateEmail(el.target.value);
-            if (!validEmail) {
-                setErrorMessage('You need to enter a vaild email.');
-            } else {
-                setErrorMessage('');
-            }
-        } else {
-            if (!el.target.value.length) {
-                setErrorMessage(`${el.target.name} is required.`);
-            } else {
-                setErrorMessage('');
-            }
-        }
-        if (!errorMessage) {
-            setFormState({ ...formState, [el.target.name]: el.target.value });
-        }
-    }
+    // function handleChange(el) {
+    //     if (el.target.name === 'email') {
+    //         const validEmail = validateEmail(el.target.value);
+    //         if (!validEmail) {
+    //             setErrorMessage('You need to enter a vaild email.');
+    //         } else {
+    //             setErrorMessage('');
+    //         }
+    //     } else {
+    //         if (!el.target.value.length) {
+    //             setErrorMessage(`${el.target.name} is required.`);
+    //         } else {
+    //             setErrorMessage('');
+    //         }
+    //     }
+    //     if (!errorMessage) {
+    //         setFormState({ ...formState, [el.target.name]: el.target.value });
+    //     }
+    // }
 
-    function handleSubmit(el) {
-        el.preventDefault();
-        console.log(formState)
-    }
+    // function handleSubmit(el) {
+    //     el.preventDefault();
+    //     console.log(formState)
+    // }
 
     return (
         <div className='contactArea'>
-            <h3> Contact me: </h3>
-            <form onSubmit={handleSubmit}>
+            {/* <h3> Contact me: </h3> */}
+            {/* <form onSubmit={handleSubmit}>
                 <div className='form-group'>
                     <label htmlFor='name'>Name </label>
                     <input type='text' className="form-control" dafaultvalue={name} onBlur={handleChange} name='name' />
@@ -56,10 +57,10 @@ export default function Contact() {
                     </div>
                 )}
                 <button type='submit' className='submit btn btn-dark' onSubmit={handleSubmit}>Submit</button>
-            </form>
+            </form> */}
 
-            {/* <div className='otherContact'>
-                <h3> You can contact me here as well: </h3>
+            <div className='otherContact'>
+                <h3> You can contact me here: </h3>
                 <div className="full-content" id="contact">
                     <ul className='contactList'>
                         <li>
@@ -73,7 +74,7 @@ export default function Contact() {
                         </li>
                     </ul>
                 </div>
-            </div> */}
+            </div> 
         </div >
     )
 }

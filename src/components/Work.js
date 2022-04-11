@@ -2,6 +2,7 @@
 import React from 'react';
 import apps from '../assets/apps/apps.json'
 import '../styles/Work.css'
+//import 'bootstrap/dist/css/bootstrap.min.css'
 
 function ProjectCard(props) {
     return (

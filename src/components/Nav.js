@@ -1,8 +1,15 @@
 // Navigation bar and working links
 import React from 'react';
 import '../styles/Nav.css'
+
+const styles = {
+    color: {
+        color: 'white'
+    }
+}
+
 //props
-export default function Nav() {
+export default function Nav(props) {
     const tabs = ['Home', 'About', 'Work', 'Contact', 'Resume'];
 
     return (
@@ -10,7 +17,7 @@ export default function Nav() {
             {tabs.map(tab => (
                 <li className='navItem' key={tab}>
                     {/* // ternary operator for link to page depending on which page user is on -- fix later if issues? */}
-                    <a href={'/' +tab} >
+                    <a style={styles.color} href={'/'+tab} className={props.currentPage === tab ? 'nav-link active' : 'nav-link'}>
                         {tab}
                     </a>
                 </li>

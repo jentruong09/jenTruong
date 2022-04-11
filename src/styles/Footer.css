@@ -3,15 +3,21 @@
     bottom: 0;
     width: 100%;
     text-align: center; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    bottom: 0;
+    left: 0;
+    vertical-align: bottom;
     margin-top: auto;
     text-align: center;
-    bottom: 0;
+    
 }
 
-.contactList {
+/* .contactList {
     text-align: center;
     align-items: center;
     display: inline-flex;
     margin-left: auto;
     margin-right: auto;
-}
+} */

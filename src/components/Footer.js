@@ -5,7 +5,7 @@ import '../styles/Footer.css'
 export default function Footer() {
     return (
         <div className='footer'>
-            <div className='otherContact'>
+            {/* <div className='otherContact'>
                 <div className="full-content" id="contact">
                     <ul className='contactList'>
                         <li>
@@ -19,7 +19,7 @@ export default function Footer() {
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div> */}
             <p>Designed and Built by Jennifer Truong <span>&copy;</span>2022</p>
         </div>
     )

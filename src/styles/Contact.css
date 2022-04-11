@@ -15,8 +15,8 @@
     align-items: center;
     margin-bottom: 100px;
     vertical-align: middle;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 form {
@@ -30,6 +30,14 @@ form {
 
 .otherContact {
     margin-top: 30px;
-    /* text-align: center;
-    vertical-align: middle; */
+    text-align: center;
+    
+}
+
+.contactList {
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
 }

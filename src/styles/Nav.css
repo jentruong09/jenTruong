@@ -7,7 +7,6 @@
 .navItem {
     display: flex;
     flex-direction: row;
-    text-decoration: none;
     color: #e9eee8;
     /* flex-wrap: wrap;
     align-items: flex-start; */
@@ -16,7 +15,21 @@
     transition: color 1s;
 }
 
-.navItem:hover {
+.nav-link {
+    color: white;
+}
+
+.nav-link:active {
+    text-decoration: none;
+}
+
+.nav-link:link {
+    text-decoration: none;
+   
+}
+
+.nnav-link:hover {
     cursor: pointer;
     color: #557e7a;
 }
+
