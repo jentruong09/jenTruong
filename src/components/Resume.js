@@ -22,8 +22,8 @@ export default function Resume() {
                         <img src="https://i.imgur.com/fmCTb6Q.png" class="notCard" alt='js'/>
                     </div>
                 </div> */} 
-                <h5> Proficiencies: </h5>
-                <ul className='profList'>
+                <h5> Front End Proficiencies: </h5>
+                <ul className='front-prof-list'>
                     <li>
                         HTML
                     </li>
@@ -40,8 +40,15 @@ export default function Resume() {
                         jQuery
                     </li>
                     <li>
-                        BootStrap
+                        Framework - BootStrap
                     </li>
+                    <li>
+                        Responsive Web Design
+                    </li>
+                </ul>
+
+                <h5> Back End Proficiencies:</h5>
+                <ul className='front-prof-list'>
                     <li>
                         Node.js
                     </li>
@@ -58,7 +65,7 @@ export default function Resume() {
                         APIs - RESTful, third-part, server-side, web
                     </li>
                     <li>
-                        Handlebars
+                        Templating Language - Handlebars
                     </li>
                 </ul>
             </div>

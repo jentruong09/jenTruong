@@ -17,11 +17,6 @@
     margin-bottom: 20px;
 }
 
-.github {
-    margin-right: 5px;
-    margin-left: 5px;
-}
-
 .app {
     margin-right: 5px;
     margin-left: 5px;
@@ -31,20 +26,8 @@
     margin-top: 20px;
 }
 
-.resumeLink {
-    transition: color 1s;
-    text-decoration: none;
-    color: #e9eee8;
-}
-
-.resumeLink:hover {
-    cursor: pointer;
-    color: #557e7a;
-}
-
 .work-container {
     display: flex;
-    
 }
 
 .work-card {
@@ -69,6 +52,26 @@
     margin-bottom: 30px;
     margin-right: 15px;
     margin-left: 15px;
+}
+
+.github-btn {
+    margin-right: 25px;
+}
+
+.github-btn:link {
+    text-decoration: none;
+}
+
+.github-btn:hover {
+    color: #557e7a;
+}
+
+.app-btn:link {
+    text-decoration: none;
+}
+
+.app-btn:hover {
+    color: #557e7a;
 }
 
 

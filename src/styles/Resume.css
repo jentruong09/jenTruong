@@ -3,8 +3,25 @@
    margin-bottom: 140px;
 }
 
+.resumeDownload {
+    margin-top: 40px;
+}
 
+h5 {
+    margin-top: 50px;
+}
 
 .profList {
     list-style-type: "→"
+}
+
+.resumeLink {
+    transition: color 1s;
+    text-decoration: none;
+    color: #e9eee8;
+}
+
+.resumeLink:hover {
+    cursor: pointer;
+    color: #557e7a;
 }
