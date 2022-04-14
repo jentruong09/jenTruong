@@ -15,7 +15,7 @@ import Resume from './components/Resume'
 function App() {
   //const location = useLocation
   return (
-    <Router>
+    <Router basename='jenTruong'>
     <div className='pages'>
       <Header></Header>
       {/* <BrowserRouter basename="/Home"> */}
@@ -24,7 +24,7 @@ function App() {
           <Route path='/jenTruong/' element={<Home/>} />
           <Route path='/Home' element={<Home/>} />
           <Route path='/About' element={<About/>} />
-          <Route path='/Work' element={<Work/>} />
+          <Route path='Work' element={<Work/>} />
           <Route path='/Contact' element={<Contact/>} />
           <Route path='/Resume' element={<Resume/>} />
           {/* </Switch> */}
