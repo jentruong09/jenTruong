@@ -24,7 +24,7 @@ This portfolio was created for the purposes of getting to know me as a developer
 
 <br/>
 
-[Live Deployment](https://infinite-mountain-89064.herokuapp.com/)
+[Live Deployment](https://jentruong09.github.io/jenTruong/)
 
 <br/>
 
