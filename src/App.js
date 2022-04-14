@@ -20,12 +20,12 @@ function App() {
       <BrowserRouter basename="/Home">
         <Routes>
           {/* <Switch location={location} key={location.pathname}> */}
-          <Route path='/' element={<Home/>} />
-          <Route path='/Home' element={<Home/>} />
-          <Route path='/About' element={<About/>} />
-          <Route path='/Work' element={<Work/>} />
-          <Route path='/Contact' element={<Contact/>} />
-          <Route path='/Resume' element={<Resume/>} />
+          <Route path={process.env.PUBLIC_URL + '/'} element={<Home/>} />
+          <Route path={process.env.PUBLIC_URL + '/Home'} element={<Home/>} />
+          <Route path={process.env.PUBLIC_URL + '/About'} element={<About/>} />
+          <Route path={process.env.PUBLIC_URL + '/Work'} element={<Work/>} />
+          <Route path={process.env.PUBLIC_URL + '/Contact'} element={<Contact/>} />
+          <Route path={process.env.PUBLIC_URL + '/Resume'} element={<Resume/>} />
           {/* </Switch> */}
         </Routes>
       </BrowserRouter>
