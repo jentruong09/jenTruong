@@ -17,7 +17,7 @@ function App() {
   return (
     <div className='pages'>
       <Header></Header>
-      <BrowserRouter >
+      <BrowserRouter basename="/Home">
         <Routes>
           {/* <Switch location={location} key={location.pathname}> */}
           <Route path='/' element={<Home/>} />
