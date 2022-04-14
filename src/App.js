@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './components/Home'
 import About from './components/About'
 import Work from './components/Work'
@@ -15,22 +15,24 @@ import Resume from './components/Resume'
 function App() {
   //const location = useLocation
   return (
+    <Router>
     <div className='pages'>
       <Header></Header>
-      <BrowserRouter basename="/Home">
+      {/* <BrowserRouter basename="/Home"> */}
         <Routes>
           {/* <Switch location={location} key={location.pathname}> */}
-          <Route path={process.env.PUBLIC_URL + '/'} element={<Home/>} />
-          <Route path={process.env.PUBLIC_URL + '/Home'} element={<Home/>} />
-          <Route path={process.env.PUBLIC_URL + '/About'} element={<About/>} />
-          <Route path={process.env.PUBLIC_URL + '/Work'} element={<Work/>} />
-          <Route path={process.env.PUBLIC_URL + '/Contact'} element={<Contact/>} />
-          <Route path={process.env.PUBLIC_URL + '/Resume'} element={<Resume/>} />
+          <Route path='/jenTruong/' element={<Home/>} />
+          <Route path='/jenTruong/Home' element={<Home/>} />
+          <Route path='/jenTruong/About' element={<About/>} />
+          <Route path='/jenTruong/Work' element={<Work/>} />
+          <Route path='/jenTruong/Contact' element={<Contact/>} />
+          <Route path='/jenTruong/Resume' element={<Resume/>} />
           {/* </Switch> */}
         </Routes>
-      </BrowserRouter>
+      {/* </BrowserRouter> */}
       <Footer></Footer>
     </div>
+    </Router>
   );
 }
 
