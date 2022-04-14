@@ -20,7 +20,7 @@ function App() {
       <BrowserRouter >
         <Routes>
           {/* <Switch location={location} key={location.pathname}> */}
-          <Route path='https://jentruong09.github.io/jenTruong/' element={<Home/>} />
+          <Route path='/' element={<Home/>} />
           <Route path='/Home' element={<Home/>} />
           <Route path='/About' element={<About/>} />
           <Route path='/Work' element={<Work/>} />
