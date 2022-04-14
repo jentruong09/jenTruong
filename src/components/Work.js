@@ -10,7 +10,7 @@ function ProjectCard(props) {
             <div className='work-card'>
                 <img src={props.image} className='card-img-top' alt={props.name}></img>
                 <div className="card-body">
-                    <h5 className="card-title">{props.name}</h5>
+                    <h4 className="card-title">{props.name}</h4>
                     <p className="card-text">{props.description}</p>
                     <p className="card-techs">{props.techs}</p>
                     <a href={props.github} className="github-btn">GitHub</a>

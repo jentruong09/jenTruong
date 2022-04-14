@@ -27,11 +27,11 @@ export default function Nav() {
         // </ul>
 
         <ul className='navBar'>
-            <li className='navItem'><Link to="/jenTruong/Home">Home</Link></li>
-            <li className='navItem'><Link to="/jenTruong/About">About</Link></li>
-            <li className='navItem'><Link to="/jenTruong/Work">Work</Link></li>
-            <li className='navItem'><Link to="/jenTruong/Contact">Contact</Link></li>
-            <li className='navItem'><Link to="/jenTruong/Resume">Resume</Link></li>
+            <li><Link className='navItem' to="/jenTruong/Home">Home</Link></li>
+            <li><Link className='navItem' to="/jenTruong/About">About</Link></li>
+            <li><Link className='navItem' to="/jenTruong/Work">Work</Link></li>
+            <li><Link className='navItem' to="/jenTruong/Contact">Contact</Link></li>
+            <li><Link className='navItem' to="/jenTruong/Resume">Resume</Link></li>
         </ul>
     )
 }

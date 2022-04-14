@@ -6,9 +6,9 @@ import '../styles/Resume.css'
 export default function Resume() {
     return (
         <div className='resumeSection'>
-            <h5 className='resumeDownload'>
-                Download a PDF of my resume: <a className='resumeLink' href='https://drive.google.com/file/d/1HVZDekGzx4APc4imO8JMF6-DEq4I2TGH/view?usp=sharing'>Resume</a>
-            </h5>
+            <h4 className='resumeDownload'>
+                Download a PDF of my resume: <a className='resumeLink' href='https://drive.google.com/file/d/1vcjXKBoyuQjLxYHz0j819O8UoQaFm_6e/view?usp=sharing'>Resume</a>
+            </h4>
             <div className='technologies'>
                
                 {/* <div className='container'>
@@ -22,7 +22,7 @@ export default function Resume() {
                         <img src="https://i.imgur.com/fmCTb6Q.png" class="notCard" alt='js'/>
                     </div>
                 </div> */} 
-                <h5> Front End Proficiencies: </h5>
+                <h4> Front End Proficiencies: </h4>
                 <ul className='front-prof-list'>
                     <li>
                         HTML
@@ -47,7 +47,7 @@ export default function Resume() {
                     </li>
                 </ul>
 
-                <h5> Back End Proficiencies:</h5>
+                <h4> Back End Proficiencies:</h4>
                 <ul className='front-prof-list'>
                     <li>
                         Node.js
