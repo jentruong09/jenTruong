@@ -4,7 +4,7 @@
         "name": "Crypto Cards",
         "description": "Did you ever collect pokemon cards growing up or are you collecting them now? Have you ever thought about how much crypto you can get for all those Pokemon cards sitting on your shelf? You can get the most current crypto prices for your Pokemon cards on Crypto Cards! We offer prices in USD, Bitcon, Etherum, and Tether and as time passes, we would love to offer prices in other varying cryptocurrencies.",
         "techs": "HTML, CSS, jQuery, BootStrap, API",
-        "live": "https://jentruong09.github.io/crypto-cards/set-results.html",
+        "live": "https://jentruong09.github.io/crypto-cards/index.html",
         "github": "https://github.com/jentruong09/crypto-cards",
         "image": "https://i.imgur.com/yKB3d4X.png"
     },
