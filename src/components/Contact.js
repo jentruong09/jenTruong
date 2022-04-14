@@ -1,6 +1,5 @@
 // Body for contact info
-import React, { useState } from 'react';
-import { validateEmail } from '../utils/helpers';
+import React from 'react';
 import '../styles/Contact.css'
 
 

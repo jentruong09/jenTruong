@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 // import other components ->
 import Nav from './Nav'
-import Home from './Home'
+//import Home from './Home'
 import About from './About'
 import Work from './Work'
 import Contact from './Contact'
