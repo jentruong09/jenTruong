@@ -1,7 +1,30 @@
 .contactList {
     list-style-type: none;
     display: flex;
+    flex-direction: column;
+}
+
+.indContact{
+    display: flex;
     flex-direction: row;
+    margin-bottom: 15px
+}
+
+.wordLinks:link {
+    text-decoration: none;
+}
+
+.wordLinks:active {
+    text-decoration: none;
+}
+
+.wordLinks:visited {
+    text-decoration: none;
+}
+
+.wordLinks:hover {
+    cursor: pointer;
+    color: #557e7a;
 }
 
 .contactImg {
@@ -30,14 +53,23 @@ form {
 
 .otherContact {
     margin-top: 200px;
+    /* text-align: center; */
+    margin-bottom: 260px;
+}
+
+.contactTitle {
     text-align: center;
-    margin-bottom: 300px;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
 }
 
 .contactList {
     text-align: center;
-    align-items: center;
-    display: inline-flex;
+    /* align-items: center; */
+    display: flex;
     margin-left: auto;
     margin-right: auto;
 }
