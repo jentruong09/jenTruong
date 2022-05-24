@@ -62,7 +62,7 @@ export default function Resume() {
                         NoSQL - MongoDB, Mongoose
                     </li>
                     <li>
-                        APIs - RESTful, third-part, server-side, web
+                        APIs - RESTful, third-party, server-side, web
                     </li>
                     <li>
                         Templating Language - Handlebars
