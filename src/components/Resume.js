@@ -56,6 +56,9 @@ export default function Resume() {
                         Express.js
                     </li>
                     <li>
+                        React.js
+                    </li>
+                    <li>
                         MySQL
                     </li>
                     <li>
