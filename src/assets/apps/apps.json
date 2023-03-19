@@ -10,6 +10,33 @@
     },
     {
         "id": 2,
+        "name": "code.quiz challenge",
+        "description": "Test your knowledge on coding with this quiz challenge! Visit the scoreboard page to your scores!",
+        "techs": "HTML, CSS, JavaScript",
+        "live": "https://jentruong09.github.io/code-quiz/",
+        "github": "https://github.com/jentruong09/code-quiz",
+        "image": "https://i.imgur.com/iFGtevQ.png"
+    },
+    {
+        "id": 3,
+        "name": "Weather or Not",
+        "description": "With this weather application, you can find the weather of over 200,000 cities! Simply search up any city and find the weather forecast of up to 5 days.",
+        "techs": "HTML, CSS, JavaScript, jQuery, Bootstrap, Moment.js, Google Fonts, OpenWeather API",
+        "live": "https://jentruong09.github.io/weather-dashboard/",
+        "github": "https://github.com/jentruong09/weather-dashboard",
+        "image": "https://imgur.com/vCpynxh"
+    },
+    {
+        "id": 4,
+        "name": "My Work Day Schedule",
+        "description": "With this day schedule, you will always remember what you need to do and when to do it! Simply add tasks to the slot next to the corresponding hour and hit save. You may update, change, and move your tasks as you see fit. They will remain there even if you come back to it days later!",
+        "techs": "HTML, CSS, JavaScript, jQuery, Bootstrap, Moment.js, Google Fonts, Fontawesome",
+        "live": "https://jentruong09.github.io/my-work-day-schedule/",
+        "github": "https://github.com/jentruong09/my-work-day-schedule",
+        "image": "https://imgur.com/343nu4S"
+    },
+    {
+        "id": 5,
         "name": "Honey",
         "description": "This new dating app helps anime lovers find a connection. Anime is a popular topic of discussion, according to Google volume search, close to 100 million people watch anime. Find those that love to watch anime and want to find love on Honey!",
         "techs": "MongoDB, React.js, node.js, socket.io, Bootstrap, Sequelize, Bcrypt, API",
@@ -18,30 +45,13 @@
         "image": "https://i.imgur.com/BX4frhV.png"
     },
     {
-        "id": 3,
+        "id": 6,
         "name": "QUACK",
         "description": "QUACK is a social media application that allows users to interact with one another. Simply create a login for yourself and you can post, comment, and like/dislike posts!",
         "techs": "Express, MySQL, Handlebars, node.js, Bootstrap, Sequelize, Bcrypt",
         "live": "https://quack-project.herokuapp.com",
         "github": "https://github.com/jentruong09/quack",
         "image": "https://i.imgur.com/aTjZrci.png"
-    },
-    {
-        "id": 4,
-        "name": "The Tech Blog",
-        "description": "A blog where anyone interested about Tech can come and share their thoughts! Simply create a login and you are able to post and comment! Keep the email and password so you can always log in!",
-        "techs": "Express, MySQL, Handlebars, node.js, Bootstrap, Sequelize, Bcrypt",
-        "live": "https://thetechbloggg.herokuapp.com",
-        "github": "https://github.com/jentruong09/theTechBlog",
-        "image": "https://i.imgur.com/zjBomv0.png"
-    },
-    {
-        "id": 5,
-        "name": "code.quiz challenge",
-        "description": "Test your knowledge on coding with this quiz challenge! Visit the scoreboard page to your scores!",
-        "techs": "HTML, CSS, JavaScript",
-        "live": "https://jentruong09.github.io/code-quiz/",
-        "github": "https://github.com/jentruong09/code-quiz",
-        "image": "https://i.imgur.com/iFGtevQ.png"
     }
+    
 ]
