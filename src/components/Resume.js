@@ -7,7 +7,7 @@ export default function Resume() {
     return (
         <div className='resumeSection'>
             <h4 className='resumeDownload'>
-                Download a PDF of my resume: <a className='resumeLink' href='https://drive.google.com/file/d/1vcjXKBoyuQjLxYHz0j819O8UoQaFm_6e/view?usp=sharing'>Resume</a>
+                Download a PDF of my resume: <a className='resumeLink' href='https://drive.google.com/file/d/1i2gc6vBuF2vuTyWOGMGvdLsN-bfQ3f6l/view?usp=sharing'>Resume</a>
             </h4>
             <div className='technologies'>
                
