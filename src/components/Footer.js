@@ -1,6 +1,7 @@
 // Holds the design/created by J.T.
 import React from 'react';
 import '../styles/Footer.css'
+import link from '../assets/apps/link.json'
 
 export default function Footer() {
     return (
@@ -20,6 +21,7 @@ export default function Footer() {
                     </ul>
                 </div>
             </div> */}
+            <p>For a new and updated portfolio, please visit: <a href={link.link}>New Portfolio</a></p>
             <p>Designed and Built by Jennifer Truong <span>&copy;</span>2022</p>
         </div>
     )
